@@ -27,8 +27,6 @@ import lombok.NoArgsConstructor;
 @Table(name = "resident")
 @EntityListeners(AuditingEntityListener.class)
 public class Resident {
-
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;
